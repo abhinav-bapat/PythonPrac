@@ -8,6 +8,12 @@ And list b holds the cubes of integers 0 to n-1, so if n is equal to
 """
 a=[]
 b=[]
+n = int(input('Enter a number:'))
+for x in range(n):
+    a.append(x**2)
+    b.append(x**3)
 
+print(a)
+print(b)
 
 

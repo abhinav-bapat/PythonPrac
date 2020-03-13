@@ -6,7 +6,15 @@ For numbers which are multiples of both three and five
 print "FizzBuzz".
 For the rest, print the actual number
 """
-
+for x in range(101):
+    if x%3==0 and x%5==0:
+        print('FizzBuzz')
+    elif x%3==0:
+        print('Fizz')
+    elif x%5==0:
+        print('Buzz')
+    else:
+        print(x)
 
 
 
